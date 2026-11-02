@@ -20,3 +20,16 @@ jobs:
         run: mvn -B test
       - name: Golden check (Java)
         run: scripts/golden-check.sh java
+
+  rust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: rust
+      - name: Rust tests
+        run: cargo test --manifest-path rust/Cargo.toml
+      - name: Golden check (Rust)
+        run: scripts/golden-check.sh rust

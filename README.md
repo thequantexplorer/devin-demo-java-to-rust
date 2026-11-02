@@ -8,6 +8,7 @@ It runs on **Java 8**. The team wants to move the billing logic to **Rust**. Bef
 
 ```sh
 mvn test                              # JUnit 4 suite (needs JDK 8)
+cargo test --manifest-path rust/Cargo.toml  # Rust port tests
 scripts/golden-check.sh java          # Java app vs the golden fixtures
 scripts/golden-check.sh rust          # Rust port vs the golden fixtures
 ```
@@ -31,16 +32,15 @@ PASS 06-batch
 6/6 fixtures match (java)
 ```
 
-Nobody has written the Rust port yet, so the Rust check fails:
+The Rust port in `rust/` matches them too (see [PORTING.md](PORTING.md)):
 
 ```text
 $ scripts/golden-check.sh rust
-FAIL: rust/Cargo.toml not found. Nobody has ported the billing code to Rust yet.
-The port must be a cargo workspace in rust/ with a binary named 'golden' that takes
-a fixture input file and prints its output (see fixtures/README.md).
+...
+6/6 fixtures match (rust)
 ```
 
-The **CI** GitHub Action runs the Java tests and the Java golden check on every pull request. You can also start it from the **Actions** tab with **Run workflow**.
+The **CI** GitHub Action runs the Java and Rust tests and both golden checks on every pull request. You can also start it from the **Actions** tab with **Run workflow**.
 
 ## Code
 
