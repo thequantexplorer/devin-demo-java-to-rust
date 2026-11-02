@@ -1,0 +1,21 @@
+[package]
+name = "acme-billing"
+version = "2.7.1"
+description = "Rust port of the Acme legacy billing logic (com.acme.billing)"
+edition.workspace = true
+publish = false
+
+[lib]
+name = "acme_billing"
+
+[[bin]]
+name = "golden"
+path = "src/bin/golden.rs"
+
+[[bin]]
+name = "billing-run"
+path = "src/bin/billing_run.rs"
+
+[dependencies]
+base64 = "0.22"
+chrono = { version = "0.4", default-features = false, features = ["std"] }
