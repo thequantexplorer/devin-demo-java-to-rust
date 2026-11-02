@@ -1,0 +1,10 @@
+# An item in a different currency than its invoice is an error.
+invoice M-1 CUST-1 USD 2025-01-06 30 US-CA
+item SKU-A 1 10.00
+item SKU-B 1 5.00 EUR
+invoice M-2 CUST-2 EUR 2025-01-06 30 DE
+item SKU-A 2 10.00 EUR
+invoice M-3 CUST-3 GBP 2025-01-06 30 GB
+item SKU-A 1 1.00 USD
+print
+aging 2025-03-01

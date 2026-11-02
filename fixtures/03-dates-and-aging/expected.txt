@@ -1,0 +1,29 @@
+csv,D-1,CUST-1,2024-01-30,2024-02-29,USD,10.00,0.72
+xml,<invoice id="D-1" customer="CUST-1" checksum="442D31"><subtotal>10.00</subtotal></invoice>
+token,Q1VTVC0xOkQtMQ==
+csv,D-2,CUST-1,2025-01-31,2025-03-03,USD,10.00,0.72
+xml,<invoice id="D-2" customer="CUST-1" checksum="442D32"><subtotal>10.00</subtotal></invoice>
+token,Q1VTVC0xOkQtMg==
+csv,D-3,CUST-1,2025-01-30,2025-03-03,USD,10.00,0.72
+xml,<invoice id="D-3" customer="CUST-1" checksum="442D33"><subtotal>10.00</subtotal></invoice>
+token,Q1VTVC0xOkQtMw==
+csv,D-4,CUST-1,2024-12-15,2025-01-14,USD,10.00,0.72
+xml,<invoice id="D-4" customer="CUST-1" checksum="442D34"><subtotal>10.00</subtotal></invoice>
+token,Q1VTVC0xOkQtNA==
+csv,D-5,CUST-1,2025-06-07,2025-06-09,USD,10.00,0.72
+xml,<invoice id="D-5" customer="CUST-1" checksum="442D35"><subtotal>10.00</subtotal></invoice>
+token,Q1VTVC0xOkQtNQ==
+csv,D-6,CUST-1,2023-02-01,2023-03-01,USD,10.00,0.72
+xml,<invoice id="D-6" customer="CUST-1" checksum="442D36"><subtotal>10.00</subtotal></invoice>
+token,Q1VTVC0xOkQtNg==
+csv,D-7,CUST-1,2025-03-01,2025-05-30,USD,10.00,0.72
+xml,<invoice id="D-7" customer="CUST-1" checksum="442D37"><subtotal>10.00</subtotal></invoice>
+token,Q1VTVC0xOkQtNw==
+csv,D-8,CUST-1,2025-12-31,2026-03-02,USD,10.00,0.72
+xml,<invoice id="D-8" customer="CUST-1" checksum="442D38"><subtotal>10.00</subtotal></invoice>
+token,Q1VTVC0xOkQtOA==
+aging,2025-01-01,6,0,0,0,2
+aging,2025-03-03,5,0,1,0,2
+aging,2025-04-01,3,2,0,1,2
+aging,2025-06-30,1,1,1,0,5
+aging,2026-12-31,0,0,0,0,8

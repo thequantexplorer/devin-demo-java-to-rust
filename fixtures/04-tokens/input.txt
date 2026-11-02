@@ -1,0 +1,13 @@
+# Payment tokens are Base64 of "customer:invoice". The legacy encoder
+# puts a line break after every 76 characters; the output shows it as \n.
+invoice T-1 C USD 2025-01-06 30 US-CA
+item SKU-A 1 1.00
+invoice T-22 CU USD 2025-01-06 30 US-CA
+item SKU-A 1 1.00
+invoice T-333 CUS USD 2025-01-06 30 US-CA
+item SKU-A 1 1.00
+invoice INV-2025-0001-RETAINER-QUARTERLY CUSTOMER-ACME-WIDGETS-EMEA USD 2025-01-06 30 GB
+item SKU-A 1 1.00
+invoice INV-2025-0002-RETAINER-QUARTERLY-WITH-A-VERY-LONG-PURCHASE-ORDER-REFERENCE-NUMBER-00001234 CUSTOMER-ACME-WIDGETS-NORTH-AMERICA-ENTERPRISE-DIVISION USD 2025-01-06 30 US-NY
+item SKU-A 1 1.00
+print

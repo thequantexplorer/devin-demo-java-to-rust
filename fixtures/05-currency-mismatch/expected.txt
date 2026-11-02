@@ -1,0 +1,8 @@
+error,M-1,currency mismatch: USD vs EUR
+token,Q1VTVC0xOk0tMQ==
+csv,M-2,CUST-2,2025-01-06,2025-02-05,EUR,20.00,3.80
+xml,<invoice id="M-2" customer="CUST-2" checksum="4D2D32"><subtotal>20.00</subtotal></invoice>
+token,Q1VTVC0yOk0tMg==
+error,M-3,currency mismatch: GBP vs USD
+token,Q1VTVC0zOk0tMw==
+aging,2025-03-01,0,3,0,0,0

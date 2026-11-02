@@ -1,0 +1,45 @@
+csv,R-1,CUST-1,2025-03-03,2025-04-02,USD,0.12,0.01
+xml,<invoice id="R-1" customer="CUST-1" checksum="522D31"><subtotal>0.12</subtotal></invoice>
+token,Q1VTVC0xOlItMQ==
+csv,R-2,CUST-1,2025-03-03,2025-04-02,USD,0.14,0.01
+xml,<invoice id="R-2" customer="CUST-1" checksum="522D32"><subtotal>0.14</subtotal></invoice>
+token,Q1VTVC0xOlItMg==
+csv,R-3,CUST-1,2025-03-03,2025-04-02,USD,2.68,0.19
+xml,<invoice id="R-3" customer="CUST-1" checksum="522D33"><subtotal>2.68</subtotal></invoice>
+token,Q1VTVC0xOlItMw==
+csv,R-4,CUST-1,2025-03-03,2025-04-02,USD,1.00,0.07
+xml,<invoice id="R-4" customer="CUST-1" checksum="522D34"><subtotal>1.00</subtotal></invoice>
+token,Q1VTVC0xOlItNA==
+csv,R-5,CUST-2,2025-03-03,2025-04-02,USD,0.10,0.01
+xml,<invoice id="R-5" customer="CUST-2" checksum="522D35"><subtotal>0.10</subtotal></invoice>
+token,Q1VTVC0yOlItNQ==
+csv,R-6,CUST-2,2025-03-03,2025-04-02,USD,1.00,0.06
+xml,<invoice id="R-6" customer="CUST-2" checksum="522D36"><subtotal>1.00</subtotal></invoice>
+token,Q1VTVC0yOlItNg==
+csv,R-7,CUST-2,2025-03-03,2025-04-02,USD,2.00,0.12
+xml,<invoice id="R-7" customer="CUST-2" checksum="522D37"><subtotal>2.00</subtotal></invoice>
+token,Q1VTVC0yOlItNw==
+csv,R-8,CUST-2,2025-03-03,2025-04-02,USD,6.00,0.38
+xml,<invoice id="R-8" customer="CUST-2" checksum="522D38"><subtotal>6.00</subtotal></invoice>
+token,Q1VTVC0yOlItOA==
+csv,R-9,CUST-3,2025-03-03,2025-04-02,USD,2.00,0.14
+xml,<invoice id="R-9" customer="CUST-3" checksum="522D39"><subtotal>2.00</subtotal></invoice>
+token,Q1VTVC0zOlItOQ==
+csv,R-10,CUST-3,2025-03-03,2025-04-02,USD,499999999.96,94999999.99
+xml,<invoice id="R-10" customer="CUST-3" checksum="522D3130"><subtotal>499999999.96</subtotal></invoice>
+token,Q1VTVC0zOlItMTA=
+csv,R-11,CUST-3,2025-03-03,2025-04-02,USD,0.04,0.00
+xml,<invoice id="R-11" customer="CUST-3" checksum="522D3131"><subtotal>0.04</subtotal></invoice>
+token,Q1VTVC0zOlItMTE=
+csv,R-12,CUST-4,2025-03-03,2025-04-02,USD,26.50,1.06
+xml,<invoice id="R-12" customer="CUST-4" checksum="522D3132"><subtotal>26.50</subtotal></invoice>
+token,Q1VTVC00OlItMTI=
+csv,R-13,CUST-4,2025-03-03,2025-04-02,USD,0.03,0.01
+xml,<invoice id="R-13" customer="CUST-4" checksum="522D3133"><subtotal>0.03</subtotal></invoice>
+token,Q1VTVC00OlItMTM=
+csv,R-14,CUST-4,2025-03-03,2025-04-02,USD,0.00,0.00
+xml,<invoice id="R-14" customer="CUST-4" checksum="522D3134"><subtotal>0.00</subtotal></invoice>
+token,Q1VTVC00OlItMTQ=
+csv,R-15,CUST-5,2025-03-03,2025-04-02,USD,-5.01,-0.36
+xml,<invoice id="R-15" customer="CUST-5" checksum="522D3135"><subtotal>-5.01</subtotal></invoice>
+token,Q1VTVC01OlItMTU=

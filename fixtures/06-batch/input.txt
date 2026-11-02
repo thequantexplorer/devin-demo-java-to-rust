@@ -1,0 +1,4 @@
+# BillingRun.run(count, seed): the monthly batch. It uses java.util.Random,
+# so a port must reproduce that generator exactly.
+batch 25 1
+batch 300 42

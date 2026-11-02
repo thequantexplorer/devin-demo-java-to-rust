@@ -1,0 +1,24 @@
+# Net-N terms in UTC. A due date on Saturday or Sunday moves to Monday.
+invoice D-1 CUST-1 USD 2024-01-30 30 US-CA
+item SKU-A 1 10.00
+invoice D-2 CUST-1 USD 2025-01-31 30 US-CA
+item SKU-A 1 10.00
+invoice D-3 CUST-1 USD 2025-01-30 30 US-CA
+item SKU-A 1 10.00
+invoice D-4 CUST-1 USD 2024-12-15 30 US-CA
+item SKU-A 1 10.00
+invoice D-5 CUST-1 USD 2025-06-07 0 US-CA
+item SKU-A 1 10.00
+invoice D-6 CUST-1 USD 2023-02-01 28 US-CA
+item SKU-A 1 10.00
+invoice D-7 CUST-1 USD 2025-03-01 90 US-CA
+item SKU-A 1 10.00
+invoice D-8 CUST-1 USD 2025-12-31 60 US-CA
+item SKU-A 1 10.00
+print
+# Aging buckets: current, 1-30, 31-60, 61-90, 90+ days past due.
+aging 2025-01-01
+aging 2025-03-03
+aging 2025-04-01
+aging 2025-06-30
+aging 2026-12-31

@@ -1,0 +1,40 @@
+# Money keeps 2 decimals and rounds half to even (banker's rounding),
+# both for unit prices and for tax.
+invoice R-1 CUST-1 USD 2025-03-03 30 US-CA
+item SKU-A 1 0.125
+invoice R-2 CUST-1 USD 2025-03-03 30 US-CA
+item SKU-A 1 0.135
+invoice R-3 CUST-1 USD 2025-03-03 30 US-CA
+item SKU-A 1 2.675
+invoice R-4 CUST-1 USD 2025-03-03 30 US-CA
+item SKU-A 1 1.005
+invoice R-5 CUST-2 USD 2025-03-03 30 US-TX
+item SKU-B 1 0.10
+invoice R-6 CUST-2 USD 2025-03-03 30 US-TX
+item SKU-B 1 1.00
+invoice R-7 CUST-2 USD 2025-03-03 30 US-TX
+item SKU-B 1 2.00
+invoice R-8 CUST-2 USD 2025-03-03 30 US-TX
+item SKU-B 1 6.00
+invoice R-9 CUST-3 USD 2025-03-03 30 US-CA
+item SKU-C 3 0.10
+item SKU-C 7 0.20
+item SKU-C 1 0.30
+invoice R-10 CUST-3 USD 2025-03-03 30 DE
+item SKU-D 5 99999999.99
+item SKU-D 1 0.01
+invoice R-11 CUST-3 USD 2025-03-03 30 US-CA
+item SKU-E 1 0.005
+item SKU-E 1 0.015
+item SKU-E 1 0.025
+invoice R-12 CUST-4 USD 2025-03-03 30 US-NY
+item SKU-F 1 12.5
+item SKU-F 2 7
+invoice R-13 CUST-4 USD 2025-03-03 30 GB
+item SKU-G 1 0.03
+invoice R-14 CUST-4 USD 2025-03-03 30 US-CA
+item SKU-H 1 0.00
+invoice R-15 CUST-5 USD 2025-03-03 30 US-CA
+item SKU-I 1 -10.00
+item SKU-I 1 4.99
+print

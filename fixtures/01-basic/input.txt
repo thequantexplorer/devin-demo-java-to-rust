@@ -1,0 +1,18 @@
+# The sample invoice from InvoiceTest, billed in every region.
+invoice INV-1 CUST-9 USD 2025-01-31 30 US-CA
+item SKU-1 2 19.99
+item SKU-2 1 5.00
+invoice INV-2 CUST-9 USD 2025-01-31 30 US-NY
+item SKU-1 2 19.99
+item SKU-2 1 5.00
+invoice INV-3 CUST-12 USD 2025-02-03 30 US-TX
+item SKU-7 3 120.50
+invoice INV-4 CUST-40 EUR 2025-02-03 14 DE
+item SKU-8 1 1499.00
+item SKU-9 4 0.99
+invoice INV-5 CUST-41 GBP 2025-02-03 14 GB
+item SKU-3 10 12.34
+invoice INV-6 CUST-42 USD 2025-02-03 30 US-OR
+item SKU-4 1 250.00
+invoice INV-7 CUST-43 USD 2025-02-03 30 US-CA
+print
